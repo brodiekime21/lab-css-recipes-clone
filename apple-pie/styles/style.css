@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 98vw;
+
+}
+
+.title{
+    height:80vh;
+    background-image: url("../images/apple-pie.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width: 100vw;
+}
+
+
+.grandmother-recipe{
+    margin: 2rem auto;
+}
+
+#first-section img {
+    width: 20rem;
+    margin: 0 0 2rem;
+}
+
+h2{
+    margin: 2rem 0 0 0;
+}
+
+.ingredients{
+    width: 55vw;
+    margin: 1rem auto;   
+}
+
+div {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+#first-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#second-section {
+    margin: 2rem
+    display: flex;
+    flex-direction: column;
+}
+
+
+#second-section img {
+    width: 15rem;
+    margin: 0 auto 2rem;
+    align-self: center;
+}
+
+#third-section {
+    margin: 0 auto 2rem auto;
+}
+
+#third-section h2{
+    margin: 2rem 0;
+}
+
+li{
+    font-size: .8rem
+}
+
+
+ol {
+    /* 1. Remove the default list style */  
+    list-style: none;
+  }
+  
+  ol > li {
+    /* 2. Create a custom list counter */  
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    /*3. Set the new style for the list markers */
+    content: counter(listcounter) ") ";
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  ul > li {
+    counter-increment: listcounter;
+  }
+  
+  ul > li::before {
+    content: "- ";
+  }
