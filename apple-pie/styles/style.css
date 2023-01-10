@@ -10,6 +10,9 @@ html{
 
 body{
     width: 98vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -24,17 +27,17 @@ body{
     align-items: center;
     justify-content: center;
     height: 30rem;
-    width: 100vw;
+    width: 100%;
 }
 
 
 .grandmother-recipe{
+    font-size: 1.5rem;
     margin: 2rem auto;
 }
 
-#first-section img {
-    width: 20rem;
-    margin: 0 0 2rem;
+h1{
+    font-size: 4.5rem;
 }
 
 h2{
@@ -43,43 +46,61 @@ h2{
 
 .ingredients{
     width: 55vw;
-    margin: 1rem auto;   
+  
 }
 
 div {
-    width: 500px;
-    margin: 0 auto;
+    width: 60%;
+
   }
 
-#first-section{
+#first-section {
+    width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+}
+
+/* #first-section img {
+    height: 5vh;
+    width: fit-content;
+    align-self: center;
+} */
+
+img {
+    height: 5vh;
+    align-self: center;
+    margin-bottom: .5vw;
+
 }
 
 #second-section {
-    margin: 2rem
+    margin-top: 2vh;
     display: flex;
     flex-direction: column;
 }
 
+#second-section h2{
+    margin: 1vw 0;
+
+}
 
 #second-section img {
     width: 15rem;
-    margin: 0 auto 2rem;
+
     align-self: center;
 }
 
-#third-section {
+/* #third-section {
     margin: 0 auto 2rem auto;
-}
+} */
 
 #third-section h2{
-    margin: 2rem 0;
+    margin: 1vw 0;
 }
 
 li{
-    font-size: .8rem
+    font-size: 1.2rem
 }
 
 
